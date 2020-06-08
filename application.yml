@@ -12,7 +12,7 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: ZTdiODkxMTVjOWFiMTEzYzI5YmQ3N2MzODljYjliYjc0NjkwNzg4ZDgxZDgxZWQzOTM5YzEzMmRjOWE4ZmYzNjAzNGNhN2M5OWE0YjU5N2I0NmI4YzFhZDUxZDUxMjU3MjA2NjY0Y2RiOGQwYjNjMGQ3OWEzNDhhNzdmNDQ1NjE=
+                # secret: ZTdiODkxMTVjOWFiMTEzYzI5YmQ3N2MzODljYjliYjc0NjkwNzg4ZDgxZDgxZWQzOTM5YzEzMmRjOWE4ZmYzNjAzNGNhN2M5OWE0YjU5N2I0NmI4YzFhZDUxZDUxMjU3MjA2NjY0Y2RiOGQwYjNjMGQ3OWEzNDhhNzdmNDQ1NjE=
                 base64-secret: ZTdiODkxMTVjOWFiMTEzYzI5YmQ3N2MzODljYjliYjc0NjkwNzg4ZDgxZDgxZWQzOTM5YzEzMmRjOWE4ZmYzNjAzNGNhN2M5OWE0YjU5N2I0NmI4YzFhZDUxZDUxMjU3MjA2NjY0Y2RiOGQwYjNjMGQ3OWEzNDhhNzdmNDQ1NjE=
 spring:
   security:
