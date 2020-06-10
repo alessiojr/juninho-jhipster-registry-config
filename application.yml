@@ -17,7 +17,7 @@ jhipster:
 spring:
   security:
     user:
-      password: a2portais
+      password: admin
 eureka:
   client:
     service-url:
