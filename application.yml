@@ -21,7 +21,7 @@ spring:
 eureka:
   client:
     service-url:
-        defaultZone: https://admin:a2portais@registro.a2portais.com.br/eureka/
+        defaultZone: https://admin:admin@registro.a2portais.com.br/eureka/
       #defaultZone: http://admin:a2portais@localhost:8761/eureka/
 
 # Enable /management/logfile endpoint for all apps
