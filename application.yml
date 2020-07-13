@@ -26,5 +26,5 @@ eureka:
 
 # Enable /management/logfile endpoint for all apps
 logging:
-    path: /tmp
+    path: /dados/apps/jhipster-registry/log
     file: ${spring.application.name}.log
