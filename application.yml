@@ -5,7 +5,7 @@
 # Property used on app startup to check the config server status
 configserver:
     name: A2Portais (Influzer, Mundo do Código) JHipster Registry config server
-    status: Connected to the JHipster Registry config server, using https://git.a2portais.com.br/mundo-do-codigo/jhipster-registry-a2config-config/-/edit/master/application.yml
+    status: Connected to the JHipster Registry config server, using https://git.juninho.com.br/mundo-do-codigo/jhipster-registry-a2config-config/-/edit/master/application.yml
 
 # Default JWT secret token (to be changed in production!)
 jhipster:
@@ -21,7 +21,7 @@ spring:
 eureka:
   client:
     service-url:
-        defaultZone: http://admin:admin@tomcat.a2portais.com.br:8761/eureka/
+        defaultZone: http://admin:admin@registro.juninho.com.br:8761/eureka/
       #defaultZone: http://admin:a2portais@localhost:8761/eureka/
 
 # Enable /management/logfile endpoint for all apps
