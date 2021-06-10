@@ -1,10 +1,6 @@
-# ===================================================================
-# JHipster Sample Spring Cloud Config.
-# ===================================================================
-
-# Property used on app startup to check the config server status
+# Common configuration shared between all applications
 configserver:
-    name: A2Portais (Influzer, Mundo do Código) JHipster Registry config server
+  name: Juninho.com.br (Influenzer, Wok) Docker JHipster Registry Config Server
     status: Connected to the JHipster Registry config server, using https://git.juninho.com.br/mundo-do-codigo/jhipster-registry-a2config-config/-/edit/master/application.yml
 
 # Default JWT secret token (to be changed in production!)
@@ -12,7 +8,6 @@ jhipster:
     security:
         authentication:
             jwt:
-                # secret: ZTdiODkxMTVjOWFiMTEzYzI5YmQ3N2MzODljYjliYjc0NjkwNzg4ZDgxZDgxZWQzOTM5YzEzMmRjOWE4ZmYzNjAzNGNhN2M5OWE0YjU5N2I0NmI4YzFhZDUxZDUxMjU3MjA2NjY0Y2RiOGQwYjNjMGQ3OWEzNDhhNzdmNDQ1NjE=
                 base64-secret: ZTdiODkxMTVjOWFiMTEzYzI5YmQ3N2MzODljYjliYjc0NjkwNzg4ZDgxZDgxZWQzOTM5YzEzMmRjOWE4ZmYzNjAzNGNhN2M5OWE0YjU5N2I0NmI4YzFhZDUxZDUxMjU3MjA2NjY0Y2RiOGQwYjNjMGQ3OWEzNDhhNzdmNDQ1NjE=
 spring:
   security:
